@@ -1,59 +1,103 @@
 body {
-    
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    background-image: url("../images/light_honeycomb/light_honeycomb.png");
+    background-color: #ffffff;     
 }
-
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
 }
 
-#fixed {
-  
-}
+.heading {
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
 
-section {
-
-}
-
-#top-container {
-    
-}
-
-#top-item-text-container {
-    
-}
-
-.top-item {
-
-}
-
-.text-container {
-
-}
-
-section, footer, header {
-
+.navigation-container {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 10px 20px;
+    margin: 0px 0px;
+    background-color: #ffffff;
+    border-block-end-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
-    
+    text-decoration: none;
+}
+
+#about {
+    padding: 10px;
+    margin: 10px;
+}
+
+#portfolio {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contact {
+    padding: 10px;
+    margin: 10px;
 }
 
 .wrapper {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    border: #dddddd solid;
+    padding: 50px;
+    margin: 25px auto;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 
-.content {
-   
-
-}
-
-h2 {
+#content {
+    width: 960px;
     
 }
 
-p {
-
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 10px;
+    margin: 20px;
 }
 
-footer {
+hr {
+    border: 1px solid #777777;
+    width: 900px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    word-wrap: normal;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    height: 50px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
 
 }
