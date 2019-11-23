@@ -6,23 +6,20 @@ body {
     background-color: #ffffff;     
 }
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 20px auto;
-  width: 1300px;
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-  background-clip: content-box;
-  background-image: url("../images/light_honeycomb/light_honeycomb.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-clip: content-box;
+    background-image: url("../images/light_honeycomb/light_honeycomb.png");
 }
 
 .heading {
     display: flex;
     justify-content: center;
-    top: 0;
-    left: 0;
-    padding: 10px;
+    padding: 0 5px;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
@@ -33,8 +30,8 @@ header {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 20px 10px 20px;
-    margin: 0px 0px;
+    padding: 0;
+    margin: 0;
     background-color: #ffffff;
     color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,23 +47,24 @@ a:visited {
 }
 
 #about {
-    border-right-style: groove;
-    border-width: 2px;
+    border-right-style: solid;
+    border-width: 1px;
     border-right-color: #777777;
     padding: 10px;
     margin: 5x;
 }
 
 #portfolio {
-    border-right-style: groove;
-    border-width: 2px;
+    border-right-style: solid;
+    border-width: 1px;
     border-right-color: #777777;
     padding: 10px;
     margin: 10px;
 }
 
 #contact {
-
+    padding: 5px;
+    margin: 5px;
 }
 
 .wrapper {
@@ -113,11 +111,20 @@ img {
     
 }
 
+.content {
+    flex: 1 0 auto;
+}
 .footer {
-    margin: 20px auto;
-    height: 50px;
-    width: 1300px;
+    flex-shrink: 0;
+    width: 100%;
+    height: 70px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+}
 
+.footer-text {
+    align-self: flex-end;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
 }
