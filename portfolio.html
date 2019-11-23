@@ -7,20 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="../homework-1/assets/css/style1.css">
-    <link rel="stylesheet" href="../homework-1/assets/css/style4.css">
+    <link rel="stylesheet" href="../homework-1/assets/css/style3.css">
 </head>
 
 <body>
 
-    <!-- Fixed div -->
+  
     <header>
         <div class="heading">
+            <!-- Heading 1: Most Important Heading-->
             <h1>Rachel Rohrbach</h1>
         </div>
+        <!-- Navigation Flexbox -->
         <div class="navigation-container">
-            <a id="about" href="index.html">About</a>
-            <a id="portfolio" href="portfolio.html" target="_blank">Portfolio</a>
-            <a id="contact" href="contact.html" target="_blank">Contact</a>
+            <div><a id="about" href="index.html">About</a></div>
+            <div><a id="portfolio" href="portfolio.html" target="_blank">Portfolio</a></div>
+            <div><a id="contact" href="contact.html" target="_blank">Contact</a></div>
         </div>
     </header>
 
@@ -32,27 +34,34 @@
             <h2>Portfolio</h2>
             <hr>
 
-            <div class="pic1">
-                <img src="../homework-1/assets/images/ipad.jpg" alt="ipad" width="300" height="200">
-                <div class="word-guess">Word Guess</div>
+            <div class="images-container">
+                <div class ="first-row-container">
+                    <div class="pic-1">
+                        <img src="../homework-1/assets/images/ipad.jpg" alt="ipad" width="300" height="250">
+                        <div class="word-guess">Word Guess</div>
+                    </div>
+                        <div class="pic-2">
+                            <img src="assets/images/rpg-game.jpg" alt="rpg" width="300" height="250">
+                            <div class="rpg">RPG Game</div>
+                        </div>
+                </div>
+                <div class="second-row-container">
+                    <div class="pic-3">
+                        <img src="assets/images/trivia.jpg" alt="triva" width="300" height="250">
+                        <div class="trivia">Trivia Game</div>
+                    </div>  
+                    <div class="pic-4">
+                        <img src="assets/images/info-widget.jpg" alt="widget" width="300" height="250">
+                        <div class="info-widget">Info Widget</div>
+                    </div>
+                </div>
+                <div class="third-row-container">
+                    <div class="pic-5">
+                        <img src="assets/images/rock-paper-scissors.png" alt="rock paper scissors" width="300" height="250">
+                        <div class="rps">Rock Paper Scissors</div>
+                </div>
             </div>
-            <div class="pic2">
-                <img src="assets/images/rpg-game.jpg" alt="rpg video game" width="300" height="200">
-                <div class="rpg">RPG Game</div>
-            </div>
-            <div class="pic3">
-                <img src="assets/images/trivia.jpg" alt="picture of post it notes with question marks" width="300" height="200">
-                <div class="trivia">Trivia Game</div>
-            </div>
-            <div class="pic4">
-                <img src="assets/images/info-widget.jpg" alt="picture of phone with earbuds" width="300" height="200">
-                <div class="info-widget">Rutgers Info Widget</div>
-            </div>
-            <div class="pic5">
-                <img src="assets/images/rps.jpg" alt="picture of rock paper scissors hands" width="300" height="200">
-                <div class="rps">Rock Paper Scissors</div>
-            </div>
-        </section>
+    </section>
     </div>
 
     <footer class="footer"></footer>
