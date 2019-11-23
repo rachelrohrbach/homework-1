@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,42 +9,45 @@
     <link rel="stylesheet" href="../homework-1/assets/css/style1.css">
     <link rel="stylesheet" href="../homework-1/assets/css/style2.css">
 </head>
+
 <body>
-    
+
     <header>
         <div class="heading">
-             <h1>Rachel Rohrbach</h1>
+            <!-- Heading 1: Most Important Heading-->
+            <h1>Rachel Rohrbach</h1>
         </div>
+        <!-- Navigation Flexbox -->
         <div class="navigation-container">
-            <a id="about" href= "index.html">About</a>
-            <a id="portfolio" href= "portfolio.html" target="_blank">Portfolio</a>
-            <a id="contact" href= "contact.html" target= "_blank">Contact</a>
+            <div><a id="about" href="index.html">About</a></div>
+            <div><a id="portfolio" href="portfolio.html" target="_blank">Portfolio</a></div>
+            <div><a id="contact" href="contact.html" target="_blank">Contact</a></div>
         </div>
     </header>
 
-       
+
     <!-- Wrapper -->
-     <div class="wrapper">
+    <div class="wrapper">
         <!-- Content Section -->
-        <section id= "content">
+        <section id="content">
             <!-- Heading 2: Content Heading-->
             <h2>Contact</h2>
 
-       <hr>
-        <!--Contact Form-->
-        <form>
-            Name<br>
-            <input type="text" name="name" size="125">
-            <br>
-            Email<br>
-            <input type="email" name="email" size="125">
-            <br>
-            Message<br>
-            <textarea name="message" rows="20" cols="126">
+            <hr>
+            <!--Contact Form-->
+            <form>
+                Name<br>
+                <input type="text" name="name" size="125" value="John Smith"><br>
+                <br>
+                Email<br>
+                <input type="email" name="email" size="125" value="example@gmail.com"><br>
+                <br>
+                Message<br>
+                <textarea name="message" rows="20" cols="126">
             </textarea>
-            <br><br>
-            <input id="submit-button" type="submit" value="Submit">
-        </form> 
+                <br><br>
+                <input id="submit-button" type="submit" value="Submit">
+            </form>
 
         </section>
     </div>
@@ -52,4 +56,5 @@
 
 
 </body>
+
 </html>
