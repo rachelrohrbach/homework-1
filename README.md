@@ -11,7 +11,7 @@
 This project is my personal web developer portfolio. It provides potential employers a showcase of my applications and skills. Witin the website you can learn some background about me and see examples of some of the projects that I have worked on. It also provides a contact form for interested parties to get in touch with me.
 	
 ## Technologies
-Project is created with:
+This project is created with:
 * HTML:5
 * CSS
 
