@@ -74,10 +74,10 @@ a:visited {
     padding: 50px;
 }
 
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.content-heading {
     color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
     margin: 20px;
     padding: 10px;
 }
