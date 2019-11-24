@@ -3,29 +3,24 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Installation](#installation)
-* [Credits] (#credits)
-* [License] (#license)
+* [Credits](#credits)
+* [License](#license)
 
 ## General info
-This project is my personal web developer portfolio. It provides potential employers a showcase of my applications and skills. Witin the website you can learn some background about me and see examples of some of the projects that I have worked on. It also provides a contact form for interested parties to get in touch with me.
+This project is my personal web developer portfolio. It provides potential employers a showcase of my applications and skills. Witin the website you can learn some background about me and you will eventually be able to actually see examples of some of the projects that I have worked on. It also provides a contact form for interested parties to get in touch with me. The portfolio content is limited at this point as I have just begun learning to code, but it will grow and improve with time. 
 	
 ## Technologies
 This project is created with:
 * HTML:5
 * CSS
 
-## Installation
-This is how you install my project:
-
-
 ## Credits
-I consulted W3Schools.com (#https://www.w3schools.com/html/default.asp) extensively in creating my project. Some other resources that I used include: CSS (#https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-backgroundTricks) and Stack Overflow (#https://stackoverflow.com/). I also used the GitLab repository from my course, UW-SEA-FSF-PT-11-2019-U-C.  
+I consulted W3Schools (https://www.w3schools.com/html/default.asp) extensively in creating my project. Some other resources that I used include: *CSS-Tricks (#https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-backgroundTricks) and Stack Overflow (#https://stackoverflow.com/). I also used the GitLab repository for my course, specifically referencing in class activities. 
 
 ## License
 MIT License
 
-Copyright (c) [2019] [fullname]
+Copyright (c) [2019] [Rachel Rohrbach]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
