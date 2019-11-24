@@ -3,84 +3,31 @@
 }
 
 .images-container {
-  margin: 10px;
-  padding: 10px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
 }
-.pic-1, 
-.pic-2,
-.pic-3,
-.pic-4,
-.pic-5 {
+
+ {
+}
+
+.pic-1, .pic-2, .pic-3, .pic-4, .pic-5 {
+  position: relative;
   margin: 5px;
   padding: 5px;
 }
 
- .first-row-container {
-  display: flex;
-  justify-content: center;
-}
-
-.second-row-container {
-  display: flex;
-  justify-content: center;
-}
-
-.third-row-container {
-  display: flex;
-  justify-content: center;
-}
-
-.word-guess {
+.project-text {
   background-color: #4aaaa5;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   position: absolute;
-  bottom: 16%;
-  width: 300px;
+  bottom: -1%;
+  width: 97%;
   padding: 15px;
 }
 
-.rpg {
-  background-color: #4aaaa5;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  position: absolute;
-  bottom: 16%;
-  width: 300px;
-  padding: 15px;
-}
 
-.trivia {
-  background-color: #4aaaa5;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  position: relative;
-  bottom: 18%;
-  width: 300px;
-  padding: 15px;
-}
-
-.info-widget {
-  background-color: #4aaaa5;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  position: relative;
-  bottom: 18%;
-  width: 300px;
-  padding: 15px;
-}
-
-.rps {
-  background-color: #4aaaa5;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  position: relative;
-  bottom: 18%;
-  width: 300px;
-  padding: 15px;
-}
