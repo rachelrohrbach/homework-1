@@ -10,11 +10,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     background-repeat: no-repeat;
     background-color: #ffffff;
     background-clip: content-box;
     background-image: url("../images/light_honeycomb/light_honeycomb.png");
+    width: 100%;
 }
 
 .heading {
@@ -70,8 +70,8 @@ a:visited {
     background-color: #ffffff;
     border: #dddddd solid;
     margin: 25px auto;
-    width: 960px;
     padding: 50px;
+    width: 960px;
 }
 
 .content-heading {
@@ -116,9 +116,9 @@ img {
 }
 
 .footer-text {
-    width: 100%;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12px;
     padding: 5px;
+    width: 100%;
 }

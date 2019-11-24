@@ -1,13 +1,13 @@
 form {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
     background-color: #ffffff;
-    padding: 20px;
+    color: #777777;
     display: block;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     margin-top: 10px;
+    padding: 20px;
 }
 
 #submit-button {
@@ -19,10 +19,10 @@ form {
     margin: 10px;
 }
 input{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
     background-color: #ffffff;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
     margin: 5px 0;
     padding: 5px 0;
-    line-height: 1.5;
 }
